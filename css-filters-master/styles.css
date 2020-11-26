@@ -1,0 +1,166 @@
+body{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	background: #222831;
+	color: white;
+	font-weight: 300;
+}
+
+h1{
+	font-size: 3em;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+h2{
+	font-size: 2em;
+	margin: 0;
+	border: 2px solid white;
+	padding: 0.5em;
+	display: inline-block;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+figure{
+	margin: 0;
+}
+
+.recuerda{
+	display: none;
+}
+
+.images{
+	padding: 1em;
+	display: -webkit-flex;
+	-webkit-justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.image{
+	margin: 1em 0;
+}
+
+.image img{
+	width: 100%;
+}
+
+.image figcaption{
+	padding: 0.8em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	letter-spacing: 5px;
+}
+
+.image .blur{
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+
+.image .brightness{
+	-webkit-filter: brightness(3);
+	filter: brightness(3);
+}
+
+.image .contrast{
+	-webkit-filter: contrast(3);
+	filter: contrast(3);
+}
+
+.image .drop-shadow{
+	-webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9));
+	filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9));
+}
+
+.image .grayscale{
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+
+.image .hue-rotate{
+	-webkit-filter: hue-rotate(40deg);
+	filter: hue-rotate(40deg);
+}
+
+.image .invert{
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
+
+.image .opacity{
+	-webkit-filter: opacity(0.3);
+	filter: opacity(0.3);
+}
+
+.image .saturate{
+	-webkit-filter: saturate(3);
+	filter: saturate(3);
+}
+
+.image .sepia{
+	-webkit-filter: sepia(1);
+	filter: sepia(1);
+}
+
+.footer{
+	font-size: 1.2em;
+	color: #F43E4D;
+}
+
+.footer .article{
+	margin: 0 0 1em 0;
+	display: inline-block;
+}
+
+.social .icon{
+	font-size: 2em;
+	margin: 0 0.5rem;
+}
+
+.social .icon i{
+	transition: 0.3s;
+}
+
+.social .icon i:hover{
+	transform: scale(1.3);
+}
+
+.info{
+	margin: 1em 0 0 0;
+}
+
+.info .fa-heart{
+	margin: 0 0.7em;
+}
+
+.share > div, .share > iframe{
+  vertical-align: top;
+  margin: 1em 1em 0 1em !important;
+}
+
+
+@media all and (min-width: 769px){
+
+	h1{
+		font-size: 4em;
+		margin: 1em 0 0 0;
+	}
+
+	.btn{
+		width: 40%;
+		margin: 0 0.5em 1em 0;
+	}
+}
+
+@media all and (min-width: 1080px){
+	.recuerda{
+		display: block;
+	}
+}
